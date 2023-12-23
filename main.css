@@ -1,0 +1,32 @@
+/*Hagstrom Moving Meme Assignment*/
+/* FILEPATH: styles.css */
+
+body {
+    overflow: hidden;
+    background-color: #2f692f;
+}
+
+#img-container {
+    height: 10vh;
+    width: 10vw;
+    position: relative;
+}
+
+
+#boundary {
+    height: 90vh;
+    width: 95vw;
+    border: solid black;
+    border-radius: 1rem;
+}
+
+#control_panel {
+    padding: 1rem;
+}
+
+button:disabled {
+    display: none;
+}
+button {
+    background-color: #e28743;
+}
